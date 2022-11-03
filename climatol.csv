@@ -1,0 +1,3 @@
+Process name,Category,Language,Custom code?,Complete,Requires reimplementation?,Modular and testable?,Description
+rosavent,,R,Y,Y,N,Y,Wind rose
+diagwl,,R,Y,Y,N,Y,Walter and Lieth climate diagram

@@ -1,0 +1,62 @@
+Process name,Category,Language,Custom code?,Complete?,Requires reimplementation?,Modular and testable?,Description
+Database Connections,User Management,VB .NET,Y,Y,Y,N,"Sets database connection details; port, address, database name "
+Login,User Management,VB .NET,Y,Y,Y,N,Authenticates the user
+Users Account Management,User Management,VB .NET,Y,Y,Y,N,"Enables admin to manage users accounts ( create new users,delete users) and assign users roles"
+Change Password ,Administration,VB .NET,Y,Y,Y,N,Enables admin to change User passowrd
+Data Forms Accessibilty,Administration,VB .NET,Y,Y,Y,N,Enables changing(toggling) accessibilty to key entry forms by the admin
+Update Observations,Administration,VB .NET,Y,Y,Y,N,"View, update  delete observations data in both observationinitial and final database tables"
+Operation Monitoring,Administration,VB .NET,Y,Y,Y,N,"Set records target and Monitor Users Performance during data entry process, set data entry mode (single or double entry mode) and verification"
+Empty Key Entry Forms,Administration,VB .NET,Y,Y,Y,N,Empty Key Entry Forms
+Station Entry,Metadata Management,VB .NET,Y,Y,Y,N,Enables entry of stations details
+Elements Entry,Metadata Management,VB .NET,Y,Y,Y,N,Enables entry of observation elements details
+Station Element Entry,Metadata Management,VB .NET,Y,Y,Y,N,Associates stations with elements that they observe
+Instruments Entry,Metadata Management,VB .NET,Y,Y,Y,N,Enables entry of instruments details( characteristics of instrument)
+Station Location Entry,Metadata Management,VB .NET,Y,Y,Y,N,Enables tracking of the details of station location history
+Paper Archive Defination Entry,Metadata Management,VB .NET,Y,Y,Y,N,Definition of the paper image form  to be archived (FormID and Description)
+Station Qualifier Entry,Metadata Management,VB .NET,Y,Y,Y,N,Details of the qualifier for the station
+Station Schedule Class Entry,Metadata Management,VB .NET,Y,Y,Y,N,Details of the  class of station 
+Station Physical Feature Entry,Metadata Management,VB .NET,Y,Y,Y,N,Details of the physical features of the station
+Key Entry Daily,Data Entry,VB .NET,Y,Y,Y,N,Enables entry of daily data records as initial observation data
+Key Entry Monthly,Data Entry,VB .NET,Y,Y,Y,N,Enables entry of monthly data records as initial observation data
+Key Entry Hourly,Data Entry,VB .NET,Y,Y,Y,N,Enables entry of hourly data records as initial observation data
+Key Entry Hourly Wind,Data Entry,VB .NET,Y,Y,Y,N,Enables entry of hourly wind data records as initial observation data
+Key Entry Synoptic RA1,Data Entry,VB .NET,Y,Y,Y,N,Enables entry of synoptic data records as initial observation data
+Key Entry Agro,Data Entry,VB .NET,Y,Y,Y,N,Enables entry of agro data records as initial observation data
+Sequencer Hourly,Data Entry Sequencer Configuration,VB .NET,Y,Y,Y,N,Enables setting of new hourly data entry sequencing
+Sequencer Daily,Data Entry Sequencer Configuration,VB .NET,Y,Y,Y,N,Enables setting of new daily data entry sequencing
+Sequencer Monthly,Data Entry Sequencer Configuration,VB .NET,Y,Y,Y,N,Enables setting of new monthly data entry records sequencing
+Paper Image with Structured File name, Archive Paper Image,VB .NET,Y,Y,Y,N,"Import,view and archive images with structured Filename (StnID- FormId-YYYYMMDDHH )"
+Paper Image with Unstructured File name, Archive Paper Image,VB .NET,Y,Y,Y,N,"Import,view image with unstructured filename, define the filename structure and archive image"
+Retrieve Image, Archive Paper Image,VB .NET,Y,Y,Y,N,Retrieve image 
+List Archived images, Archive Paper Image,VB .NET,Y,Y,Y,N,List  archived images
+Import data from AWS, Data Transfer,VB .NET,Y,Y,Y,N,Import manualy data from Automatic Weather Station (AWS) into Climsoft
+Import data from GTSNOAA Data, Data Transfer,VB .NET,Y,Y,Y,N,Import data from GTSNOAA into Climsoft 
+Import Hourly Text Files data , Data Transfer,VB .NET,Y,Y,Y,N,Import Hourly Text File data into Climsoft
+Import Daily and Dekadal Text Files data , Data Transfer,VB .NET,Y,Y,Y,N,Import Daily or Dekadal Text Files data with a single element column into Climsoft
+Import Monthly Text Files data , Data Transfer,VB .NET,Y,Y,Y,N,Import Monthly Text File data with a single element column into Climsoft
+Import Multiple column Daily/Dekadal/Monthly Text Files data , Data Transfer,VB .NET,Y,Y,Y,N,Import Daily /Dekadal or Monthly Text File data with multiple element columns into Climsoft
+Data Migration of ClimsoftV3 Backup files, Data Transfer,VB .NET,Y,Y,Y,N,Import observation data from Climsoft V3 Backup files in CSV into Climsoft version 4
+Data Migration of ClimsoftV3 SQL Database Script, Data Transfer,VB .NET,Y,Y,Y,N,import ClimsoftV3 data  into Climsoft version 4 using ClimsoftV3 backup SQL Database Script 
+Import CLICOM Hourly Data, Data Transfer,VB .NET,Y,Y,Y,N,Import CLICOM Hourly Data into Climsoft version 4
+Import CLICOM Daily Data, Data Transfer,VB .NET,Y,Y,Y,N,Import CLICOM Daily Data into Climsoft version 4
+Import CLICOM Synop Data, Data Transfer,VB .NET,Y,Y,Y,N,Import CLICOM synoptic Data into Climsoft version 4
+Data Backup,Data Transfer,VB .NET,Y,Y,Y,N,Backup final observation data per station to external csv output files
+Data Restore,DataTransfer,VB .NET,Y,Y,Y,N,Restore/import backuped  CSV files into observationfinal.
+Upload Observationinitial to Observationfinal,Data Transfer,VB .NET,Y,Y,Y,N,Transfer data from observationinitial to observationfinal 
+Absolute Limits Checks,Quality Control,VB .NET,Y,Y,Y,N,Perform Absolute limit QC checks on data stored in the observationinitial table
+Inter Element Comparison Checks,Quality Control,VB .NET,Y,Y,Y,N,Perform Inter-element comparison QC checks on data stored in the observationinitial table
+Update with QC Report,Quality Control,VB .NET,Y,Y,Y,N,Update the observationinitial table with corrected QCed values
+Products Selection,Climate Products,VB .NET,Y,Y,Y,N,"Enables access to the products of the given categories; Data, Graphics, Inventory, Messages, Output for other Applications, Summaries."
+Products Processing,Climate Products,VB .NET,"Y, Windrose",Y,Y,N,"Produces product summary outputs (Hourly,Daily,Dekadal,Monthly,Annual,l,Means, Extremes (Daily,Monthly,Annual and Long Terms) and data products outputs for other applications (Instat,R-Instat, climdex and GEOCLIM), Inventory,etc."
+AWS Server Settings,AWS Real Time Processing,VB .NET,Y,Y,Y,Y,AWS Server details settings
+AWS Site Settings,AWS Real Time Processing,VB .NET,Y,Y,Y,Y,AWS Site details settings
+AWS Process Settings,AWS Real Time Processing,VB .NET,Y,Y,Y,Y,AWS real time data processing
+AWS Structure Settings,AWS Real Time Processing,VB .NET,Y,Y,Y,Y,AWS data structure details settings
+AWS Message Coding Settings,AWS Real Time Processing,VB .NET,Y,Y,Y,Y,AWS data coding details settings
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
